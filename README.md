@@ -1,5 +1,6 @@
 # McDonald's-Homepage-Clone
 ## e-commerce project
+I desingned the McDonald's website. This has nothing to do with McDonald's or the actual website.
 
 Source of Images:
 - https://www.mcdonalds.com/us/en-us.html
