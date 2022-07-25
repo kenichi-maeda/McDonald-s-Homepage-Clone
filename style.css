@@ -1,0 +1,229 @@
+body{
+    font-family: 'Microsoft YaHei UI Light', 'Microsoft YaHei UI';
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+h6{
+    font: 'Microsoft YaHei UI Light';
+    font-size: 9px;
+}
+
+/* header */
+
+nav{
+    background-color: #FCFCFC;
+    color: black;
+    padding: 20px 50px;
+}
+
+.navPhoto{
+    display: flex;
+}
+
+.headerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItemText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem1{
+    font-size: 14px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #FCFCFC;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.OrderNow{
+    background-color: #F6BF33;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 42px;
+    width: 120px;
+    border-color: #F6BF33;
+}
+
+.buttonLarge{
+    background-color: #F6BF33;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 50px;
+    width: 175px;
+    border-color: #F6BF33;
+}
+.navButtom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    font-size: 17px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+
+
+/* main page */
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.articleLeft{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 0px 170px;
+}
+
+.articleRight{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px 10px 0px;
+}
+
+.articleTitile{
+    font: "Microsoft YaHei UI";
+    font-size: 100px;
+    font-weight: bold;
+}
+.articleList{
+    padding: 0;
+    list-style: none;
+}
+.buttonLarge2{
+    background-color: #F6BF33;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    border-color: #F6BF33;
+}
+
+.buttonLarge3{
+    background-color: #F6BF33;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 50px;
+    width: 210px;
+    border-color: #F6BF33;
+}
+
+
+
+/* Info page */
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 200px 0px 200px;
+}
+
+.fMenuTitile{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fMenuList{
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.Buttom{
+    background-color: white;
+    padding: 1px 0px;
+}
+
+.container{
+    display: flex;
+    max-width: 1270px;
+    background-color: white;
+    margin: auto;
+}
+
+.footer-col{
+    width: 100%;
+    padding: 0 15px 0 50px;
+}
+
+.footer-col2{
+    width: 100%;
+    padding: 0 15px 0 400px;
+}
+
+.footer-col .social-media a{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 0 0 0;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: black;
+    color: black;
+}
+
+.appImage{
+    display:inline;
+    padding: 3px 10px 10px 10px;
+}
+
+/* footer */
+
+.footerButtom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerButtomLeft{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 0px 0px 200px;
+}
+
+.footerButtomRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px 0px 0px;
+}
+
+.footerItem{
+    font-size: 14px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.footerIcon{
+    padding: 0 80px 0px 0px;
+}
