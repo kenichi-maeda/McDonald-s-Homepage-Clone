@@ -1,2 +1,2 @@
-# McDonald-s-Homepage-Clone
+# McDonald's-Homepage-Clone
 e-commerce project
