@@ -1,0 +1,233 @@
+body{
+    font-family: 'Microsoft YaHei UI Light', 'Microsoft YaHei UI';
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Menu{
+    padding: 50px 2;
+}
+
+.Menu_logo{
+    padding: 50px 400px 30px 5px;
+}
+
+.cart-button{
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-icon{
+    font-size: 40px;
+}
+
+.cart-items{
+    font-weight: bold;
+    font-size: 25px;
+    color: orangered;
+    top: -23px;
+    right: -9px;
+    position: absolute;
+    background: white;
+    border-radius: 35%;
+    padding: 0 5px;
+}
+
+.Menu-Title0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu-Title0 h1{
+    font: 'Microsoft YaHei UI';
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 5px;
+    padding: 50px 480px 30px 0px;
+    letter-spacing: var(--mainSpacing);
+}
+
+.Menu-Title h2{
+    font: 'Microsoft YaHei UI';
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: var(--mainSpacing);
+}
+
+.Menu-center{
+    margin: 0 auto;
+    max-width: 1100px;
+    display: grid;
+    width: 2200px;
+    grid-column-gap: 40px;
+    grid-row-gap: 90px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.image-container{
+    position: relative;
+}
+
+.food-image{
+    display: block;
+    width: 100%;
+}
+
+.foods h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+}
+ 
+.foods h4{
+    margin-top: 3px;
+    font-size: 18px;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+}
+
+.button-container{
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 0px 40px;
+}
+
+.Menu-center button{
+    background-color: #F6BF33;
+    font-size: 17px;
+    border-radius: 5px;
+    height: 36px;
+    width: 160px;
+    border-color: #F6BF33;
+    text-align: center;
+}
+
+/* Shopping Cart */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Info & footer */
+/* Info page */
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 200px 0px 200px;
+}
+
+.fMenuTitile{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fMenuList{
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.Buttom{
+    background-color: white;
+    padding: 1px 0px;
+}
+
+.container{
+    display: flex;
+    max-width: 1270px;
+    background-color: white;
+    margin: auto;
+}
+
+.footer-col{
+    width: 100%;
+    padding: 0 15px 0 50px;
+}
+
+.footer-col2{
+    width: 100%;
+    padding: 0 15px 0 400px;
+}
+
+.footer-col .social-media a{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 0 0 0;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: black;
+    color: black;
+}
+
+.appImage{
+    display:inline;
+    padding: 3px 10px 10px 10px;
+}
+
+/* footer */
+
+.footerButtom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerButtomLeft{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 0px 0px 200px;
+}
+
+.footerButtomRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px 0px 0px;
+}
+
+.footerItem{
+    font-size: 14px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.footerIcon{
+    padding: 0 80px 0px 0px;
+}
